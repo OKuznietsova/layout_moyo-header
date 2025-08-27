@@ -30,15 +30,15 @@ body {
   margin-left: 20px;
 }
 
+.nav__item:first-child {
+  margin: 0;
+}
+
 .nav__list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.nav__list:first-child {
-  margin: 0;
 }
 
 .nav__link {
